@@ -8,5 +8,5 @@ int mult(int n, int m){
 }
 
 void main(void){
-    mult(fatorial(5,6));
+    output(mult(5,6));
 }
