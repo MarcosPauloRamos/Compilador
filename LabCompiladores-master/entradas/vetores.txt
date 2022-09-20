@@ -1,7 +1,7 @@
 int vet[ 10 ];
 
-int valor(int vector[], int index){
-    int a; int b; int c; int d; int e; int f; int g; int h; int i; int k;
+int valor(int vector[], int index, int a){
+    vector[index] = a;
     return vector[index];
 }
 
@@ -9,6 +9,5 @@ void main(void)
 {
 	int a;
     a = 50;
-    vet[5] = a;
-    output(valor(vet, 5));
+    output(valor(vet, 5, a));
 }
